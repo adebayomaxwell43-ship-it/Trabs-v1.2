@@ -1,5 +1,14 @@
 {
-  "name": "trabs-v1",
-  "version": "1.0.0",
-  "description": "TRABS V1 by Maxwell"
+  "name": "trabs-v1-2",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.16",
+    "pino": "^8.17.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.18.2"
+  }
 }
